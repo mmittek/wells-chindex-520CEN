@@ -11,6 +11,8 @@ My journey through the revitalization of the Wells-Index 520CEN Milling Machine 
 - Missing timing belt on the X-axis motor,
 - Misaligned (knocked off) case of the Z-axis motor,
 
+## Shopping List
+https://docs.google.com/spreadsheets/d/1s_YOLKgJNMMGrWSA0En5nyfXTiyMLpXokWZuaWBQwuc/edit?usp=sharing
 
 ## Wells-Index Model 520CEN Machine Specification
 see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec212dbcc76b6927/1516082158247/520CEN+specs.pdf
