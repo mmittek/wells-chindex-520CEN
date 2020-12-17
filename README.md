@@ -13,3 +13,6 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Table Travel - Z  | 5.1"          | 129mm             |
 | Knee Travel - Z   | 16.5"         | 419mm             |
 | Overarm Travel    | 24"           | 609mm             | 
+| Spindle Motor     | 5 HP AC (Continuous)              |
+
+
