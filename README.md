@@ -56,19 +56,20 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Y   |                         |               |                   |
 | Z   |  225 L, 60T 1" wide     |               |                   |
 
-
+## Spindle and motor
+Tool found in the spindle: QC30DA30B162 / YY678339
 
 ## SEM DC Servo Encoder Output
 
-| Position | Color | Purpose | 
-| -------- | ----- | ------- |
-| 1        | -     | Key     |
-| 2        | RD    | +5V     |
-| 3        | BK    | GND     |
-| 4        | -     |   -     |
-| 5        | RD/BK | A+ |
-| 6        | GR    | A- | 
-| 7        | WH/BK | B-      |
-| 8        | OR    | B+      |
+| Position | Color | Purpose    | 
+| -------- | ----- | -------    |
+| 1        | -     | Key        |
+| 2        | RD    | +5V        |
+| 3        | BK    | GND        |
+| 4        | -     |   -        |
+| 5        | RD/BK | B+ ??       |
+| 6        | GR    | B-   ??     | 
+| 7        | WH/BK | A-         |
+| 8        | OR    | A+         |
 | 9        | BL    | Index -  (pulls down on the mark) |
 | 10       | WH    | Index +  (pulls up on the mark) |
