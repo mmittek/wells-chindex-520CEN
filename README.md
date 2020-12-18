@@ -50,11 +50,11 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Air Requirements  | 60-80 PSI     | 4.2-5.6 kg/cm^3   | 
 
 ## Belts and pulleys
-| Axis | Belt | Pulley |
-| --- | ---- | ---- |
-| X   |      |      |
-| Y   |      |      |
-| Z   |  225 L, 60T 1" tall    |      |
+| Axis | Belt                   | Motor Pulley  | Ballscrew Pulley  |
+| --- | ----                    | ----          |   -----           |
+| X   |                         |   16LF100x5/3 |                   |
+| Y   |                         |               |                   |
+| Z   |  225 L, 60T 1" tall     |               |                   |
 
 
 
