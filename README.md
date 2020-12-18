@@ -54,7 +54,7 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | --- | ----                    | ----          |   -----           |
 | X   |                         |   16LF100x5/3 |                   |
 | Y   |                         |               |                   |
-| Z   |  225 L, 60T 1" tall     |               |                   |
+| Z   |  225 L, 60T 1" wide     |               |                   |
 
 
 
