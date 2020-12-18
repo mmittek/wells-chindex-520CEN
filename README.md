@@ -71,5 +71,5 @@ Tool found in the spindle: QC30DA30B162 / YY678339
 | 6        | GR    | B-   ??     | 
 | 7        | WH/BK | A-         |
 | 8        | OR    | A+         |
-| 9        | BL    | Index -  (pulls down on the mark) |
-| 10       | WH    | Index +  (pulls up on the mark) |
+| 9        | BL    | Z- (Index) (pulls down on the mark) |
+| 10       | WH    | Z+ (Index) (pulls up on the mark) |
