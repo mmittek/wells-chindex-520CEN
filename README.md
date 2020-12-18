@@ -49,3 +49,22 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Programmable Feed Rate (X,Y,Z) | 0.1 to 200 IPM | 0.1 to 5080mm pm |
 | Air Requirements  | 60-80 PSI     | 4.2-5.6 kg/cm^3   | 
 
+## Belts
+Z axis belt: 225 L, 60T 1" tall,
+
+
+
+## SEM DC Servo Encoder Output
+
+| Position | Color | Purpose | 
+| -------- | ----- | ------- |
+| 1        | -     | Key     |
+| 2        | RD    | +5V     |
+| 3        | BK    | GND     |
+| 4        | -     |   -     |
+| 5        | RD/BK | A+ |
+| 6        | GR    | A- | 
+| 7        | WH/BK | B-      |
+| 8        | OR    | B+      |
+| 9        | BL    | Index -  (pulls down on the mark) |
+| 10       | WH    | Index +  (pulls up on the mark) |
