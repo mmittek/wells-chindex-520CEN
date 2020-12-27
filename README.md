@@ -1,7 +1,7 @@
 # wells-chindex-520CEN
 My journey through the revitalization of the Wells-Index 520CEN Milling Machine with Chinese parts.
 
-![alt text](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-index-520cen-front.jpg?raw=true)
+![Wells-Index 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-index-520cen-front.jpg?raw=true)
 
 
 ## Condition I got it in
@@ -52,10 +52,9 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 ## Belts and pulleys
 | Axis | Belt                   | Motor Pulley  | Ballscrew Pulley  |
 | --- | ----                    | ----          |   -----           |
-| X   |                         |   16LF100x5/8* |                   |
+| X   | 240L100, 64T, 1" wide   |  16LF100x5/8* |   32T?            |
 | Y   |                         |               |                   |
-| Z   |  225 L, 60T 1" wide     |  16LF100x1/2*             |                   |
-
+| Z   |  225 L, 60T 1" wide     |  16LF100x1/2* |  32T?             |
 *The pulley has been enlarged to ~14mm to slip onto the shaft of the NEMA34 stepper motor.
 
 
