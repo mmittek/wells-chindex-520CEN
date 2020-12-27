@@ -52,11 +52,11 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 ## Belts and pulleys
 | Axis | Belt                   | Motor Pulley  | Ballscrew Pulley  |
 | --- | ----                    | ----          |   -----           |
-| X   |                         |   16LF100x5/8[^1] |                   |
+| X   |                         |   16LF100x5/8* |                   |
 | Y   |                         |               |                   |
-| Z   |  225 L, 60T 1" wide     |  16LF100x1/2[^1]             |                   |
+| Z   |  225 L, 60T 1" wide     |  16LF100x1/2*             |                   |
 
-[^1]: The pulley has been enlarged to ~14mm to slip onto the shaft of the NEMA34 stepper motor.
+*The pulley has been enlarged to ~14mm to slip onto the shaft of the NEMA34 stepper motor.
 
 
 ## Spindle and motor
