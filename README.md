@@ -52,9 +52,12 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 ## Belts and pulleys
 | Axis | Belt                   | Motor Pulley  | Ballscrew Pulley  |
 | --- | ----                    | ----          |   -----           |
-| X   |                         |   16LF100x5/8 |                   |
+| X   |                         |   16LF100x5/8[^1] |                   |
 | Y   |                         |               |                   |
-| Z   |  225 L, 60T 1" wide     |               |                   |
+| Z   |  225 L, 60T 1" wide     |  16LF100x1/2[^1]             |                   |
+
+[^1]: The pulley has been enlarged to ~14mm to slip onto the shaft of the NEMA34 stepper motor.
+
 
 ## Spindle and motor
 Tool found in the spindle: QC30DA30B162 / YY678339, it's NBTM30 / QC30, so fith a fixed dawbar it can be used with a collet set using an adapter.
