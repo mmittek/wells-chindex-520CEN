@@ -30,7 +30,7 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Spindle Motor     | 5 HP AC (Continuous)              |
 | Spindle Speeds    | 28-4400 rpm                       |
 | Quill Diameter    | 3.375"        | 85.73mm           |
-| Spindle Taper     | 30MMT or 200KS                    |
+| Spindle Taper     | 30MMT (NMTB30) or 200KS                    |
 | Spindle Breaks    | Automatic                         |
 | Ways              | Hand Scraped & hard chrome plated |
 | Gibs              | Adjustable X,Y and Knee           |
@@ -59,7 +59,7 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 
 
 ## Spindle and motor
-Tool found in the spindle: QC30DA30B162 / YY678339, it's NBTM30 / QC30, so fith a fixed dawbar it can be used with a collet set using an adapter.
+Tool found in the spindle: QC30DA30B162 / YY678339, it's NMTB30 / QC30, so fith a fixed dawbar it can be used with a collet set using an adapter.
 
 ## SEM MTS30M4-59 DC Servo Encoder Output
 This table breaks down the pinout of the header and wire color scheme of the encoder output.
