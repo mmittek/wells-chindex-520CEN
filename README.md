@@ -1,7 +1,14 @@
 # wells-chindex-520CEN
 My journey through the revitalization of the Wells-Index 520CEN Milling Machine with Chinese parts.
 
-![Wells-Index 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-index-520cen-front.jpg?raw=true)
+Before              |  Now
+:-------------------------:|:-------------------------:
+![Wells-Index 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-index-520cen-front.jpg?raw=true) |  ![Wells-Chindex 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-chindex-520cen-front.jpg?raw=true)
+
+
+
+
+
 
 
 ## Condition I got it in
@@ -22,6 +29,7 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 |                   | Imperial      | Metric            |
 | ----------        | ----          | ------            |
 | Table Size        | 10" x 48"     | 254mm x 1219mm    |
+| T-Slot Size       | 0.625" W on 2.25" centers     | 15.88mm W on 57.25mm centers    |
 | Table Travel - X  | 30"           |   762mm           |
 | Table Travel - Y  | 13.75"        | 350mm             |
 | Table Travel - Z  | 5.1"          | 129mm             |
@@ -53,9 +61,10 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 | Axis | Belt                   | Motor Pulley  | Ballscrew Pulley  |
 | --- | ----                    | ----          |   -----           |
 | X   | 240L100, 64T, 1" wide   |  16LF100x5/8* |   32T?            |
-| Y   |                         |               |                   |
-| Z   |  225 L, 60T 1" wide     |  16LF100x1/2* |  32T?             |
+| Y   | 300L100, 80T, 1" wide   |  16LF100x5/8**  |   32T?            |
+| Z   | 225L100, 60T, 1" wide   |  16LF100x1/2* |  32T?             |
 *The pulley has been enlarged to ~14mm to slip onto the shaft of the NEMA34 stepper motor.
+**A shim / bushing was made to allow for the pulley to slip onto the shaft of the NEMA34 stepper motor.
 
 
 ## Spindle and motor
