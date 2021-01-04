@@ -1,9 +1,7 @@
 # wells-chindex-520CEN
 My journey through the revitalization of the Wells-Index 520CEN Milling Machine with Chinese parts.
 
-Before              |  Now
-:-------------------------:|:-------------------------:
-![Wells-Index 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-index-520cen-front.jpg?raw=true) |  ![Wells-Chindex 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-chindex-520cen-front.jpg?raw=true)
+![Wells-Chindex 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-chindex-520cen-front.jpg?raw=true)
 
 
 
