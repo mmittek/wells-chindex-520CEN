@@ -24,7 +24,6 @@ net spindle-at-speed    => spindle.0.at-speed
 net spindle-on <= spindle.0.on
 net spindle-cw <= spindle.0.forward
 
-net estop-out       => parport.0.pin-01-out
 net xstep           => parport.0.pin-02-out
 setp parport.0.pin-02-out-reset 1
 net xdir            => parport.0.pin-03-out
@@ -34,12 +33,16 @@ net ydir            => parport.0.pin-05-out
 net zstep           => parport.0.pin-06-out
 setp parport.0.pin-06-out-reset 1
 net zdir            => parport.0.pin-07-out
-net astep           => parport.0.pin-08-out
+# net astep           => parport.0.pin-08-out
 setp parport.0.pin-08-out-reset 1
-net adir            => parport.0.pin-09-out
-net spindle-cw      => parport.0.pin-14-out
+net estop-out       => parport.0.pin-08-out
+
+# net adir            => parport.0.pin-09-out
+# net spindle-cw      => parport.0.pin-14-out
 net spindle-on      => parport.0.pin-16-out
-net xenable         => parport.0.pin-17-out
+# net xenable         => parport.0.pin-17-out
+net max-home-z      <= parport.0.pin-10-in
+
 
 setp stepgen.0.position-scale [JOINT_0]SCALE
 setp stepgen.0.steplen 1
@@ -76,6 +79,9 @@ net zpos-fb stepgen.2.position-fb => joint.2.motor-pos-fb
 net zstep <= stepgen.2.step
 net zdir <= stepgen.2.dir
 net zenable joint.2.amp-enable-out => stepgen.2.enable
+
+net max-home-z => joint.2.home-sw-in
+net max-home-z => joint.2.pos-lim-sw-in
 
 net estop-out <= iocontrol.0.user-enable-out
 net estop-out => iocontrol.0.emc-enable-in
