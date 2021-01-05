@@ -11,7 +11,7 @@ addf mult2.1 servo-thread
 setp halui.axis.jog-deadband 0.2
 
 # Set axis jog speed
-setp halui.axis.jog-speed  2000
+setp halui.axis.jog-speed  1000
 
 # Map right joystick to X, Y axis
 net jog-x-analog halui.axis.x.analog <= input.0.abs-rx-position
