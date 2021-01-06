@@ -14,6 +14,7 @@ My journey through the revitalization of the Wells-Index 520CEN Milling Machine 
 - Missing controller,
 - Chipped-off piece of 3-bolt X-axis ball screw mounting section under the table,
 - Spindle motor taken off,
+- Z-axis ballnut very loosely attached to the quill,
 - All motor wires were cut-off (presumably when the controller was removed),
 - Bent shaft on the X-axis motor,
 - Missing timing belt on the X-axis motor,
