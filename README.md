@@ -4,8 +4,9 @@ My journey through the revitalization of the Wells-Index 520CEN Milling Machine 
 ![Wells-Chindex 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-chindex-520cen-front.jpg?raw=true)
 
 
-
-
+## Videos of operation:
+- Control using Xbox 360 (knock-off) Controller https://www.youtube.com/watch?v=8YnuL3tIR1U
+- Cutting wood for the first time! https://www.youtube.com/watch?v=NYqySIxauQM
 
 
 
