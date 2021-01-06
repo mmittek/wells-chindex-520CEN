@@ -41,7 +41,10 @@ net estop-out       => parport.0.pin-08-out
 # net spindle-cw      => parport.0.pin-14-out
 net spindle-on      => parport.0.pin-16-out
 # net xenable         => parport.0.pin-17-out
+
+# Inputs
 net max-home-z      <= parport.0.pin-10-in
+net estop-ext       <= parport.0.pin-11-in-not
 
 
 setp stepgen.0.position-scale [JOINT_0]SCALE
@@ -84,7 +87,10 @@ net max-home-z => joint.2.home-sw-in
 net max-home-z => joint.2.pos-lim-sw-in
 
 net estop-out <= iocontrol.0.user-enable-out
-net estop-out => iocontrol.0.emc-enable-in
+# net estop-out => iocontrol.0.emc-enable-in
+
+net estop-ext => iocontrol.0.emc-enable-in
+
 
 loadusr -W hal_manualtoolchange
 net tool-change iocontrol.0.tool-change => hal_manualtoolchange.change
