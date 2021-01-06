@@ -7,7 +7,7 @@ My journey through the revitalization of the Wells-Index 520CEN Milling Machine 
 ## Videos of operation:
 - Control using Xbox 360 (knock-off) Controller https://www.youtube.com/watch?v=8YnuL3tIR1U
 - Cutting wood for the first time! https://www.youtube.com/watch?v=NYqySIxauQM
-
+A playlist of raw videos is available here: https://www.youtube.com/playlist?list=PLCtCQeHkrL9PzS3xl5yHUxXoV2bxP6WXG
 
 
 ## Condition I got it in
