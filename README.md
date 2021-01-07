@@ -4,15 +4,18 @@ My journey through the revitalization of the Wells-Index 520CEN Milling Machine 
 ![Wells-Chindex 520CEN ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/wells-chindex-520cen-front.jpg?raw=true)
 
 
+## Videos of operation:
+- Control using Xbox 360 (knock-off) Controller https://www.youtube.com/watch?v=8YnuL3tIR1U
+- Cutting wood for the first time! https://www.youtube.com/watch?v=NYqySIxauQM
 
-
-
+A playlist of raw videos is available here: https://www.youtube.com/playlist?list=PLCtCQeHkrL9PzS3xl5yHUxXoV2bxP6WXG
 
 
 ## Condition I got it in
 - Missing controller,
 - Chipped-off piece of 3-bolt X-axis ball screw mounting section under the table,
 - Spindle motor taken off,
+- Z-axis ballnut very loosely attached to the quill,
 - All motor wires were cut-off (presumably when the controller was removed),
 - Bent shaft on the X-axis motor,
 - Missing timing belt on the X-axis motor,
