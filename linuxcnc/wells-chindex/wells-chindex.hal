@@ -39,6 +39,7 @@ net estop-out       => parport.0.pin-08-out
 
 # net adir            => parport.0.pin-09-out
 # net spindle-cw      => parport.0.pin-14-out
+setp parport.0.pin-16-out-reset 0
 net spindle-on      => parport.0.pin-16-out
 # net xenable         => parport.0.pin-17-out
 
