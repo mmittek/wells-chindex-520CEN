@@ -73,6 +73,7 @@ Tool found in the spindle: QC30DA30B162 / YY678339, it's NMTB30 / QC30, so fith 
 
 
 | Placement         | Top Spindle | Bottom Spindle |
+| ------- | ------ | --------- |
 | Original Bearing | 2x 2MM9107WI DUL C1 | 2MM9108WI CR DUL |
 
 ## SEM MTS30M4-59 DC Servo Encoder Output
