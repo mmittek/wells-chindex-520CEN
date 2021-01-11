@@ -76,7 +76,7 @@ Tool found in the spindle: QC30DA30B162 / YY678339, it's NMTB30 / QC30, so fith 
 | ------- | ------ | --------- |
 | Original Bearing | 2x 2MM9107WI DUL C1 | 2x 2MM9108WI CR DUL |
 | Dimensions | 35x62x14 | 40x68x15 |
-| NSK | | 2x 7008CTYNSULP4  |
+| NSK | 2x 7007CTRDULP4Y  | 2x 7008CTYNSULP4  |
 
 ## SEM MTS30M4-59 DC Servo Encoder Output
 This table breaks down the pinout of the header and wire color scheme of the encoder output.
