@@ -71,6 +71,10 @@ see https://static1.squarespace.com/static/5a4bd3d61f318d36bb3b5067/t/5a5d93edec
 ## Spindle and motor
 Tool found in the spindle: QC30DA30B162 / YY678339, it's NMTB30 / QC30, so fith a fixed dawbar it can be used with a collet set using an adapter.
 
+
+| Placement         | Top Spindle | Bottom Spindle |
+| Original Bearing | 2x 2MM9107WI DUL C1 | 2MM9108WI CR DUL |
+
 ## SEM MTS30M4-59 DC Servo Encoder Output
 This table breaks down the pinout of the header and wire color scheme of the encoder output.
 
