@@ -20,6 +20,7 @@ A playlist of raw videos is available here: https://www.youtube.com/playlist?lis
 - Bent shaft on the X-axis motor,
 - Missing timing belt on the X-axis motor,
 - Misaligned (knocked off) case of the Z-axis motor,
+- Very loud spindle bearings.
 
 ## Shopping List
 https://docs.google.com/spreadsheets/d/1s_YOLKgJNMMGrWSA0En5nyfXTiyMLpXokWZuaWBQwuc
