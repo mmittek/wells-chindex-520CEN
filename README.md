@@ -75,6 +75,7 @@ Tool found in the spindle: QC30DA30B162 / YY678339, it's NMTB30 / QC30, so fith 
 
 | Placement         | Top Spindle | Bottom Spindle |
 | ------- | ------ | --------- |
+| Locking nut | SN07 | ??? |
 | Original Bearing | 2x 2MM9107WI DUL C1 | 2x 2MM9108WI CR DUL |
 | Dimensions | 35x62x14 | 40x68x15 |
 | NSK | 2x 7007CTRDULP4Y  | 2x 7008CTRDULP4Y   |
