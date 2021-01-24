@@ -85,7 +85,7 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmittek/wells-chindex-520CEN/raw/main/doc/A2%20VFD%20Manual.pdf
 
 
-| Item    | Description (from the manual) | Value range (from the manual)  | Default | Used    | Comment | 
+| PN    | Description (from the manual) | Value range (from the manual)  | Default | Used    | Comment | 
 | ------- | -------                       | -------                        | ------- | ------- | ------- |
 | 01| Default display content | 1-30000 | 1 | 1 | Value 1 will display the runtime frequency, 2 will show motor's synchronized speed | 
 | 02| Initial start up frequency by panel or other method | 0.01-400.00 | 50Hz | 60Hz | ? | 
@@ -93,6 +93,8 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | 04| Source of runtime command  | 1-2 | 1 | 1 | 1- panel button, <br>2-external signal control | 
 | 05| Clockwise / Anticlockwise control  | 1-3 | 3 | 3 | 1- clockwise only, <br>2-CCW only, <br>3-CW/CCW enable | 
 | 06| Stoppping method  | 1-2 | 2 | 1 | 1)stop by itself, <br> 2) stop by deceleration | 
+| 07| Start again by external signal  | 1-2 | 1 | 1 | 1) disabled, <br> 2) enabled | 
+| 08| Acceleration time from 0-Max (PN10)  | 000.01s-650.00s | 50s | 3s | Number of seconds to reach the max | 
 
 
 
