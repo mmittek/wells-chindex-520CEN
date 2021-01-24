@@ -102,7 +102,23 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | 09| Decelarion time from Max(PN10)-0  | 000.01s-650.00s | 50s | 3s | Number of seconds to spin down from the max | 
 | 10| Maximum runtime frequency  | 000.01-400.00 | 400.00 | 60.00 |  | 
 | 11| Minimum runtime frequency  | 000.01-400.00 | 1.5 | 5.0 |  Looked like it wouldn't spin at all  below ~3 | 
-| 12| Minimum runtime frequency  | 000.01-400.00 | 1.5 | 5.0 |  Looked like it wouldn't spin at all  below ~3 | 
+| 12| Motor rating frequency  | 010.00-400.00 | 400 | 60.0 |  From the label | 
+| 13| Torque compensation coefficient  | 0.0-4.0 | 0 | 0 |  Looks like it's a proportial term for the PID??? | 
+| 14| Torque compensation frequency  | 0.01Hz-600.00Hz | 400 | 80 |  Picked something a bit higher than 60Hz? | 
+| 15| Startup DC braking voltage  | 1-100V | 30 | 30 |  Kept the default? | 
+| 16| Startup DC braking time  | 000.00-650.00s | 0 | 0 |  Kept the default? | 
+| 17| Stop DC braking voltage  | 1-100V | 30 | 30 |  Kept the default? | 
+| 18| Startup DC braking time  | 000.00-650.00s | 0 | 0 |  Kept the default? | 
+| 19| Source of multi-segment speed  | 1-5 | 1 | 1 |  Kept the default? | 
+| 20| Multi-segment speed frequency  1 | 000.10-400.00 | 10 | 10 |   | 
+| 21| Multi-segment speed frequency  2 | 000.10-400.00 | 10 | 10 |   | 
+| 22| Multi-segment speed frequency  3 | 000.10-400.00 | 10 | 10 |   | 
+| 23| Multi-segment speed frequency  4 | 000.10-400.00 | 10 | 10 |   | 
+| 24| Multi-segment speed frequency  5 | 000.10-400.00 | 10 | 10 |   | 
+| 25| Multi-segment speed frequency  6 | 000.10-400.00 | 10 | 10 |   | 
+| 26| Multi-segment speed frequency  7 | 000.10-400.00 | 10 | 10 |   | 
+| 27| Point move frequency | 000.10-400.00 | 10 | 10 |   | 
+| 28| Choice of relay output | 1-6 | 3 | 3 |  1) Stop inverter <br> 2) Run inverter <br>3) Inverter fault <br> 4) Frequency increasing <br>5) Frequency decreasing <br>6) Frequency reached <br>If output is satisfied ON/OFF State reverses  | 
 
 
 
