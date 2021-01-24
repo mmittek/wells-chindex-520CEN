@@ -92,8 +92,7 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | 03| Source of runtime frequency with range | 1-7 | 2 | 2 | 2 - panel button, 4 - external 0-10V signal | 
 | 04| Source of runtime command  | 1-2 | 1 | 1 | 1- panel button, 2-external signal control | 
 | 05| Clockwise / Anticlockwise control  | 1-3 | 3 | 3 | 1- clockwise only, 2-CCW only, 3-CW/CCW enable | 
-| 06| Stoppping method  | 1-2 | 2 | 1 | 1) stop by itself, 
-2) stop by deceleration | 
+| 06| Stoppping method  | 1-2 | 2 | 1 | <ol><li> stop by itself, <li> stop by deceleration</ol> | 
 
 
 
