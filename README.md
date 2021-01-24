@@ -89,9 +89,9 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | ------- | -------                       | -------                        | ------- | ------- | ------- |
 | 01| Default display content | 1-30000 | 1 | 1 | Value 1 will display the runtime frequency, 2 will show motor's synchronized speed | 
 | 02| Initial start up frequency by panel or other method | 0.01-400.00 | 50Hz | 60Hz | ? | 
-| 03| Source of runtime frequency with range | 1-7 | 2 | 2 | 2 - panel button, 4 - external 0-10V signal | 
-| 04| Source of runtime command  | 1-2 | 1 | 1 | 1- panel button, 2-external signal control | 
-| 05| Clockwise / Anticlockwise control  | 1-3 | 3 | 3 | 1- clockwise only, 2-CCW only, 3-CW/CCW enable | 
+| 03| Source of runtime frequency with range | 1-7 | 2 | 2 | 2 - panel button, <br>4 - external 0-10V signal | 
+| 04| Source of runtime command  | 1-2 | 1 | 1 | 1- panel button, <br>2-external signal control | 
+| 05| Clockwise / Anticlockwise control  | 1-3 | 3 | 3 | 1- clockwise only, <br>2-CCW only, <br>3-CW/CCW enable | 
 | 06| Stoppping method  | 1-2 | 2 | 1 | 1)stop by itself, <br> 2) stop by deceleration | 
 
 
