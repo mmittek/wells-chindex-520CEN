@@ -81,6 +81,10 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 | Dimensions | 35x62x14 | 40x68x15 |
 | NSK | 2x 7007CTRDULP4Y  | 2x 7008CTRDULP4Y   |
 
+### Speed control
+Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmittek/wells-chindex-520CEN/raw/main/doc/A2%20VFD%20Manual.pdf
+
+
 ## SEM MTS30M4-59 DC Servo Encoder Output
 This table breaks down the pinout of the header and wire color scheme of the encoder output.
 
