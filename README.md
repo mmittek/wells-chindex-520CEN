@@ -86,7 +86,11 @@ Decided to use the Narathon 80T17FH5212 3-phase 220V AC motor with a VFD.
 <img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true" alt="Marathon 80T17FH5212 label" width="500" />
 
 ### Breakout board 0-10V output configuration
-<img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/mach3-chinese-bob.jpg?raw=true" alt="Typical MACH-3 breakout board" width="500" />
+<img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/mach3-chinese-bob.jpg?raw=true" alt="Typical MACH-3 breakout board" width="700" />
+
+<cite>
+With that breakout board (below) uses the 12-24v combined with the PWM signal on pin 1 (the computer side) to output the 0-10v signal. Don't connect anything to the pin1 output on the breakout board. He was trying to say that in your hal file the PWM output gets connected to the parallel ports pin 1 there. Then the breakout board uses that signal to generate the 0-10v signal. (The pin 1 output on the breakout board is for situations where you are not using the 0-10v signal and want to bring out the output from parallel port pin 1 for other uses.)
+</cite> Source: https://forum.linuxcnc.org/38-general-linuxcnc-questions/40438-making-0-10v-output-work-with-spindle-in-hal?start=10
 
 
 ### VFD-based Spindle Speed control
