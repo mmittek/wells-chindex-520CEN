@@ -85,6 +85,10 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmittek/wells-chindex-520CEN/raw/main/doc/A2%20VFD%20Manual.pdf
 
 
+| Item    | Description (from the manual) | Value range (from the manual)  | Default | Used    | Comment | 
+| ------- | -------                       | -------                        | ------- | ------- | ------- |
+| 01| Default display content | 1-30000 | 1 | ? |
+
 ## SEM MTS30M4-59 DC Servo Encoder Output
 This table breaks down the pinout of the header and wire color scheme of the encoder output.
 
