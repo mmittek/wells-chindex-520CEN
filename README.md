@@ -83,7 +83,8 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 
 ### Motor
 
-![Marathon 80T17FH5212 label ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true)
+<img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true" alt="Marathon 80T17FH5212 label" width="200" />
+
 
 Decided to use the Narathon 80T17FH5212 3-phase 220V AC motor with a VFD. 
 
