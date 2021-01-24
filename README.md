@@ -119,6 +119,13 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | 26| Multi-segment speed frequency  7 | 000.10-400.00 | 10 | 10 |   | 
 | 27| Point move frequency | 000.10-400.00 | 10 | 10 |   | 
 | 28| Choice of relay output | 1-6 | 3 | 3 |  1) Stop inverter <br> 2) Run inverter <br>3) Inverter fault <br> 4) Frequency increasing <br>5) Frequency decreasing <br>6) Frequency reached <br>If output is satisfied ON/OFF State reverses  | 
+| 29| 2nd Acceleration time | 000.01-650.00 | 2 | 2 |   | 
+| 30| 2nd Deceleration time | 000.01-650.00 | 2 | 2 |   | 
+| 31| 2nd Decelation stop frequency | 000.01-650.00 | 1 | 1 |  When runtime frequency is larger than this value, acceleration/decelation time defiend by PN08/PN09. When smaller it's PN29 / PN30  | 
+| 32| Parameter management  | 1-6 | 1 | 1 |  1) modification enabled<br>2) modification disabled <br>3) initialize for 400Hz<br>4) read OEM parameters <br>5) write OEM parameters <br>6) initialize for 50Hz <br>NOTE: Password for OEM is 61633 | 
+| 33| Software version |  |  |  |   | 
+| 34| Auto recovery on power loss | 0-99 | 0 | 0 |  0) disabled,<br>99) "do auto recovery in infinite time, starting from low frequency"<br> other)  | 
+| 35| Production date |  |  |  |   | 
 
 
 
