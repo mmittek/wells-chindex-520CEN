@@ -81,6 +81,12 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 | Dimensions | 35x62x14 | 40x68x15 |
 | NSK | 2x 7007CTRDULP4Y  | 2x 7008CTRDULP4Y   |
 
+### Motor
+
+![Marathon 80T17FH5212 label ](https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true)
+
+Decided to use the Narathon 80T17FH5212 3-phase 220V AC motor with a VFD. 
+
 ### Speed control
 Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmittek/wells-chindex-520CEN/raw/main/doc/A2%20VFD%20Manual.pdf
 
@@ -95,7 +101,10 @@ Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmitt
 | 06| Stoppping method  | 1-2 | 2 | 1 | 1)stop by itself, <br> 2) stop by deceleration | 
 | 07| Start again by external signal  | 1-2 | 1 | 1 | 1) disabled, <br> 2) enabled | 
 | 08| Acceleration time from 0-Max (PN10)  | 000.01s-650.00s | 50s | 3s | Number of seconds to reach the max | 
-
+| 09| Decelarion time from Max(PN10)-0  | 000.01s-650.00s | 50s | 3s | Number of seconds to spin down from the max | 
+| 10| Maximum runtime frequency  | 000.01-400.00 | 400.00 | 60.00 |  | 
+| 11| Minimum runtime frequency  | 000.01-400.00 | 1.5 | 5.0 |  Looked like it wouldn't spin at all  below ~3 | 
+| 12| Minimum runtime frequency  | 000.01-400.00 | 1.5 | 5.0 |  Looked like it wouldn't spin at all  below ~3 | 
 
 
 
