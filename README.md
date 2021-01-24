@@ -85,7 +85,11 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 Decided to use the Narathon 80T17FH5212 3-phase 220V AC motor with a VFD. 
 <img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true" alt="Marathon 80T17FH5212 label" width="500" />
 
-### Speed control
+### Breakout board 0-10V output configuration
+<img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/mach3-chinese-bob.jpg?raw=true" alt="Typical MACH-3 breakout board" width="500" />
+
+
+### VFD-based Spindle Speed control
 Decided to use the A2-8007M VFD. Manual available here: https://github.com/mmittek/wells-chindex-520CEN/raw/main/doc/A2%20VFD%20Manual.pdf
 
 
