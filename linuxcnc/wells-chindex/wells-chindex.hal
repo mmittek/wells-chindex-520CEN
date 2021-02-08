@@ -7,8 +7,15 @@ loadrt hal_parport cfg="0x0378 out"
 setp parport.0.reset-time 5000
 loadrt stepgen step_type=0,0,0
 
-addf parport.0.read base-thread
+setp parport.0.pin-16-out-reset 1
+
+loadrt debounce cfg=1 #change to the number you want
+setp debounce.0.delay 100 #this sets the delay 100 iterations of the servo-thread
+addf debounce.0 servo-thread
+
+
 addf stepgen.make-pulses base-thread
+addf parport.0.read base-thread
 addf parport.0.write base-thread
 addf parport.0.reset base-thread
 
@@ -39,7 +46,6 @@ net estop-out       => parport.0.pin-08-out
 
 # net adir            => parport.0.pin-09-out
 # net spindle-cw      => parport.0.pin-14-out
-setp parport.0.pin-16-out-reset 0
 net spindle-on      => parport.0.pin-16-out
 # net xenable         => parport.0.pin-17-out
 
@@ -48,6 +54,8 @@ net max-home-z      <= parport.0.pin-10-in
 net estop-ext       <= parport.0.pin-11-in-not
 net min-home-x      <= parport.0.pin-12-in
 net min-home-y      <= parport.0.pin-13-in
+net deb-probe-in debounce.0.0.in <= parport.0.pin-15-in-not
+
 
 
 setp stepgen.0.position-scale [JOINT_0]SCALE
@@ -101,6 +109,12 @@ net estop-out <= iocontrol.0.user-enable-out
 # net estop-out => iocontrol.0.emc-enable-in
 
 net estop-ext => iocontrol.0.emc-enable-in
+
+#limits debounce to stop false triggers
+#net probe-in debounce.0.0.out
+#net probe-in => motion.probe-input
+
+net min-home-z      <= debounce.0.0.out
 
 
 loadusr -W hal_manualtoolchange

@@ -6,6 +6,25 @@ loadrt mult2 count=2
 addf mult2.0 servo-thread
 addf mult2.1 servo-thread
 
+# Joystick-based speed selection
+# https://forum.linuxcnc.org/38-general-linuxcnc-questions/36532-joystick-not-working-after-all-axis-are-homed
+loadrt or2 count=1
+loadrt mux2 count=1
+addf or2.0 servo-thread
+addf mux2.0 servo-thread
+
+# set the jog speed for the joypad again use numbers that make sense for your machine
+setp mux2.0.in0 1
+setp mux2.0.in1 20
+
+# the following does the magic of setting the jog speeds
+net remote-speed-slow or2.0.in0 input.0.btn-b
+net remote-speed-fast or2.0.in1 input.0.btn-b-not
+#net joy-speed-1 mux2.0.sel0 <= input.0.btn-b
+#net joy-speed-2 mux2.0.sel1 <= input.0.btn-b-not
+net joy-speed-final halui.joint.jog-speed <= mux2.0.out
+
+
 # Joystick output is a float in the range [-1..1]
 # Ignore initial small values as joystick centre is not exactly zero
 setp halui.axis.jog-deadband 0.2
