@@ -81,6 +81,9 @@ Great mounting guide from NSK / Feyc: https://feyc.eu/download/aplicaciones/maqu
 | Dimensions | 35x62x14 | 40x68x15 |
 | NSK | 2x 7007CTRDULP4Y  | 2x 7008CTRDULP4Y   |
 
+When calling Wells-Index it was determined that the inspection can be done at ~$80/hr shop rate. The spindle can be shipped using UPS in a secured package and must include $2500 insurance.
+
+
 ### Motor
 Decided to use the Marathon 80T17FH5212 3-phase 220V AC motor with a VFD. 
 <img src="https://github.com/mmittek/wells-chindex-520CEN/blob/main/figures/marathon-80T17FH5212-label.jpg?raw=true" alt="Marathon 80T17FH5212 label" width="500" />
